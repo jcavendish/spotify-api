@@ -1,6 +1,9 @@
+import Category from "./Category";
+
 export default interface Track {
-  id: string;
+  id?: string;
   title: string;
+  artist: string;
   likes: number;
-  category: string;
+  categories: string[];
 }
